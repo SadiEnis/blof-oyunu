@@ -7,6 +7,9 @@ namespace hafta4_odev
     {
         public static void Main(string[] args)
         {
+            #region .
+            Console.Title = "Sadi Enis Güçlüer";
+            #endregion
             BluffMenu();
             Console.ReadKey(); // Oyun başlıyor...
             Console.ForegroundColor = ConsoleColor.White; // Bunlar estetil :)
